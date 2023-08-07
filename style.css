@@ -219,7 +219,8 @@ summary:hover {
 }
 
 #indica {
-  padding: 0px 150px 0px 100px;
+  padding: 10px 100px 10px 100px;
+  text-align: center;
 }
 
 /*Citação*/
@@ -247,47 +248,34 @@ summary:hover {
   margin-right: 0px;
 }
 
-.tedtalk {
-  margin-bottom: 10px;
-  margin-left: 8%;
-  margin-right: auto;
-}
-
 .tt_text {
   text-align: center;
-  font-size: 15px;
+}
+
+.list_tit {
+  text-align: center;
+  font-variant: small-caps;
 }
 
 .lista {
-  margin-left: 12%;
   border: solid 2px;
   border-color: #5a0303fa;
   border-radius: 15px;
   padding-bottom: 8px;
   padding-left: 10px;
   padding-right: 15px;
-  display: inline-block;
+  display: block;
+  width: fit-content;
 }
 
-.colunas {
-  columns: 2;
-  column-gap: 25px;
+.botao2 {
+  margin-left: 35%;
+  margin-right: auto;
 }
 
-.glass {
-  color: #f1f1f1;
-  margin-right: 12%;
-  text-align: justify;
-  background-color: #5a0303fa;
-  padding-right: 25px;
-  padding-left: 25px;
-  border-radius: 15px;
-  float: right;
-}
-
-.list_tit {
-  text-align: center;
-  font-variant: small-caps;
+.dif {
+  margin-top: 12px;
+  margin-bottom: 12px;
 }
 
 .glass_tit {
@@ -296,68 +284,67 @@ summary:hover {
   font-variant: small-caps;
 }
 
-.dif {
-  margin-top: 12px;
-  margin-bottom: 12px;
+.glass {
+  background-color: #5a0303fa;
+  padding: 8px 25px;
+  border-radius: 15px;
+  text-align: justify;
+  color: #f1f1f1;
+  width: fit-content;
 }
 
-.difdivs {
-  margin-top: 40px;
-  margin-bottom: 30px;
-}
-
-.botao2 {
-  margin-left: 35%;
-  margin-right: auto;
+.colunas {
+  columns: 2;
+  column-gap: 25px;
+  padding: 50px 80px;
 }
 
 /*Início seção Iniciativas*/
-
-.logos {
-  width: 200px;
-  height: 200px;
-  margin-right: 8px;
-  margin-left: 11px;
-  display: inline-block;
-  border-radius: 10px;
-}
-
-.iniciativa li {
-  list-style: none;
-  display: inline-block;
-  margin-left: 45px;
-  margin-right: 50px;
-}
-
-.iniciativa a {
-  text-decoration: none;
-  color: #5a0303;
-  font-variant: small-caps;
-  display: block;
-  font-weight: bold;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  border-radius: 10px;
-  border: solid 1px #5a0303;
-  margin-bottom: 30px;
-}
-
-.iniciativa a:hover {
-  background-color: #5a0303;
-  color: white;
+.iniciativa_sec {
+  padding: 50px;
 }
 
 .txt_inic {
   text-align: center;
-  margin-left: 6%;
-  margin-right: 6%;
   margin-bottom: 10px;
+  line-height: 1.5;
 }
 
-.imglogos {
-  margin-top: 10px;
+.logos {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  margin: 8px;
+  display: inline-block;
+  text-align: center;
+}
+
+.container2 {
+  text-align: center;
+}
+
+.container3 a {
+  text-decoration: none;
+  color: #5a0303;
+  font-variant: small-caps;
+  display: inline-block;
+  font-weight: bold;
+  padding: 10px 5px;
+  border-radius: 10px;
+  border: solid 1px #5a0303;
+  margin-bottom: 30px;
+  width: fit-content;
+  text-align: center;
+  margin: 0 53px 20px;
+}
+
+.container3 a:hover {
+  background-color: #5a0303;
+  color: white;
+}
+
+.container3 {
+  text-align: center;
 }
 
 .logojaccr {
@@ -368,12 +355,11 @@ summary:hover {
 .logoelasnatech {
   height: 180px;
   width: 340px;
+  text-align: center;
 }
 
 .elasnatech {
-  margin: 10%;
-  margin-bottom: 0px;
-  margin-top: 5px;
+  text-align: center;
 }
 
 /*Inicio da seção porque porque impulsionar*/
@@ -398,6 +384,7 @@ summary:hover {
   margin-right: 10%;
   margin-top: 40px;
   margin-bottom: 40px;
+  line-height: 1.5;
 }
 
 .porque_tit {
@@ -434,20 +421,17 @@ h4 {
 }
 
 /*Seção News*/
+
+#artigos {
+  padding: 5px 30px;
+}
+
 #txtnews {
   text-align: center;
+  line-height: 1.5;
 }
 
-.news_sec {
-  display:inline-block;
-  background-color: #5a0303;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  margin-left: 2%;
-  margin-right: 2%;
-}
-
-#news:hover :not(:hover){
+.news:hover :not(:hover){
   opacity: 0.3;
 }
 
@@ -461,22 +445,15 @@ h4 {
   scale:1.1;
 }
 
-.news {
-  list-style-type: none;
-  display: inline-block;
-}
-
-.vid8m {
-  list-style-type: none;
-  display: inline-block;
+.container4 {
+  padding: 10px 20px;
+  text-align: center;
 }
 
 /*créditos*/
 
 .creditos {
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-bottom: 25px;
+  margin:10px 30px 25px 30px;
   padding: 15px;
   font-size: 12px;
   text-align: center;
@@ -485,13 +462,13 @@ h4 {
 .imagens {
   display: inline-block;
   padding: 10px;
-  margin-right: 35px;
+  border-right: solid 1px #4b4b4b;
 }
 
 .videos {
   display: inline-block;
   padding: 10px;
-  margin-right: 35px;
+  border-right: solid 1px #4b4b4b;
 }
 
 .infos {
@@ -499,6 +476,7 @@ h4 {
   padding: 10px;
   text-align: center;
 }
+
 /*Footer*/
 footer {
   background-color: #5a0303;
@@ -522,3 +500,9 @@ footer a {
   text-decoration: none;
 }
 /*Final do footer*/
+
+#top {
+  float: right;
+  background-color: #ffffff6e;
+  border-radius: 50%;
+}
