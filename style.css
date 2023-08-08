@@ -137,6 +137,7 @@ div.dreamgaptext {
   font-weight: bold;
   text-align: center;
   background-color: #ffee00b0;
+  padding: 3px;
 }
 
 /*Início da seção Desafio ODS*/
@@ -147,7 +148,7 @@ div.dreamgaptext {
 }
 
 .container1 {
-  padding: 30px 100px;
+  padding: 30px 80px;
 }
 
 .logods5 {
@@ -167,12 +168,12 @@ summary {
   color: white;
   background-color: #5a0303;
   padding: 4px 8px;
-  display: block;
+  display: inline-block;
   text-align: center;
   font-variant: small-caps;
-  margin-left: 60%;
   cursor: pointer;
   border-radius: 10px;
+  width: fit-content;
 }
 
 summary:hover {
@@ -182,25 +183,30 @@ summary:hover {
 .ptsods {
   padding-bottom: 10px;
   background-color:#f1f1f1;
+  text-align: justify;
 }
 
 .mais {
   color: #fffffffa;
+  display: inline-block;
   text-align: center;
   font-variant: small-caps;
   background-color: #5a0303fa;
   text-decoration: none;
-  padding: 4px 25px 4px 25px;
+  padding: 4px 15px;
   border-radius: 10px;
-  display: block;
-  margin-left: 58.5%;
-  margin-right: 100px;
+  width: fit-content;
+  margin-top: 15px;
 }
 
 .mais:hover {
   background-color: #3b0101;
 }
 
+.btm {
+  margin: 10px 0;
+  text-align: center;
+}
 /*Final da seção ODS e início da seção dos indicadores*/
 
 #indic_tit {
@@ -215,11 +221,11 @@ summary:hover {
   height: 280px;
   width: 280px;
   border-radius: 15px;
-  margin: 16px;
+  margin: 10px;
 }
 
 #indica {
-  padding: 10px 100px 10px 100px;
+  padding: 10px 100px;
   text-align: center;
 }
 
@@ -250,6 +256,7 @@ summary:hover {
 
 .tt_text {
   text-align: center;
+  padding: 5px 20px;
 }
 
 .list_tit {
@@ -264,8 +271,10 @@ summary:hover {
   padding-bottom: 8px;
   padding-left: 10px;
   padding-right: 15px;
-  display: block;
-  width: fit-content;
+  display: inline-block;
+  margin: 5px;
+  width: 45%;
+  height: auto;
 }
 
 .botao2 {
@@ -289,14 +298,19 @@ summary:hover {
   padding: 8px 25px;
   border-radius: 15px;
   text-align: justify;
+  line-height: 1.5;
   color: #f1f1f1;
-  width: fit-content;
+  display: inline-block;
+  margin: 5px;
+  width: 45%;
+  height: auto;
 }
 
 .colunas {
-  columns: 2;
-  column-gap: 25px;
-  padding: 50px 80px;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*Início seção Iniciativas*/
@@ -306,7 +320,7 @@ summary:hover {
 
 .txt_inic {
   text-align: center;
-  margin-bottom: 10px;
+  padding-bottom: 10px;
   line-height: 1.5;
 }
 
@@ -345,6 +359,7 @@ summary:hover {
 
 .container3 {
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .logojaccr {
@@ -353,35 +368,26 @@ summary:hover {
 }
 
 .logoelasnatech {
-  height: 180px;
-  width: 340px;
-  text-align: center;
+  height: 120px;
+  width: 280px;
+  margin: auto;
+  display: block;
 }
 
 .elasnatech {
   text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 /*Inicio da seção porque porque impulsionar*/
-
-.porque {
-  background-image: url(img/paredeAzul.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  padding-bottom: 60px;
-  padding-top: 2px;
-  margin-left: 0px;
-  margin-right: 0px;
-}
 
 .txt_porque {
   text-align: justify;
   columns: 2;
   column-gap: 60px;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 15%;
+  margin-right: 15%;
   margin-top: 40px;
   margin-bottom: 40px;
   line-height: 1.5;
@@ -389,35 +395,47 @@ summary:hover {
 
 .porque_tit {
   background-color: #5a0303;
-  padding: 25px;
-  margin-left: 90px;
-  margin-right: 90px;
+  padding: 25px 90px;
   color: white;
   margin-bottom: 50px;
   border-radius: 15px;
+  width: fit-content;
+  text-align: center;
+  display: block;
+  margin: auto;
 }
 
-h4 {
-  font-variant: small-caps;
-  color: #5a0303;
-  text-align: left;
-  font-size: 22px;
-  background-color: white;
-  padding: 15px;
-  margin-left: 90px;
-  border-radius: 15px;
+#img_bg_sec {
+  background-image: url(img/paredeAzul.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 2px 0 60px 0px;
 }
 
-.benf {
+.item1 {
   list-style: none;
   display: block;
   background-color: #ffee00;
-  padding: 30px;
-  margin-left: 50px;
-  margin-right: 50%;
+  padding: 30px 20px;
   margin-bottom: 15px;
   border-radius: 15px;
   font-weight: bolder;
+  width: fit-content;
+  text-align: left;
+}
+
+h3 {
+  font-variant: small-caps;
+  color: #5a0303;
+  background-color: white;
+  padding: 30px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.beneficios {
+  padding: 5px 200px; 
 }
 
 /*Seção News*/
@@ -450,6 +468,10 @@ h4 {
   text-align: center;
 }
 
+div.news > iframe {
+  width: auto;
+}
+
 /*créditos*/
 
 .creditos {
@@ -462,13 +484,11 @@ h4 {
 .imagens {
   display: inline-block;
   padding: 10px;
-  border-right: solid 1px #4b4b4b;
 }
 
 .videos {
   display: inline-block;
   padding: 10px;
-  border-right: solid 1px #4b4b4b;
 }
 
 .infos {
